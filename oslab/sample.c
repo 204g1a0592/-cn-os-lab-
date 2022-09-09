@@ -6,7 +6,7 @@ Name:K.Samyuktha
 //source code
 #include<stdio.h>
 void main(){
-  printf("Hello World");
+  printf("samyuktha");
   
 }
 
