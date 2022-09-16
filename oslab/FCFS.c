@@ -9,7 +9,7 @@
 
 
 #include<stdio.h>
-#include<conio.h>
+
 int main()
 {
 int bt[20], wt[20], tat[20], i, n;
