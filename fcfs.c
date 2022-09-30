@@ -1,4 +1,4 @@
-Name Of the Candidate: k.samyuktha
+/*Name Of the Candidate: k.samyuktha
    Roll No: 204G1A0592
    Title of the Experiment: CPU Scheduling Using FCFS Algorithm
    Date of Creation: 16-08-2022
@@ -9,12 +9,10 @@ Name Of the Candidate: k.samyuktha
 
 
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
 int bt[20], wt[20], tat[20], i, n;
 float wtavg, tatavg;
-clrscr();
 printf("\nEnter the number of processes -- ");
 scanf("%d", &n);
 for(i=0;i<n;i++)
@@ -37,5 +35,4 @@ for(i=0;i<n;i++)
 printf("\n\t P%d \t\t %d \t\t %d \t\t %d", i, bt[i], wt[i], tat[i]);
 printf("\nAverage Waiting Time -- %f", wtavg/n);
 printf("\nAverage Turnaround Time -- %f", tatavg/n);
-getch();
 }
